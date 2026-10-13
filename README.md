@@ -1,18 +1,15 @@
 # The DataViz Challenge – Transforming EDA Projects to Dashboards
 
 ## Project Overview
-This project focuses on transforming Exploratory Data Analysis (EDA) into meaningful visual insights using Airbnb listings data. The project explores Airbnb listing characteristics, pricing, room types, neighbourhoods, reviews, and availability, with the goal of comparing Airbnb operations in Chicago and New Orleans.
+This project focuses on transforming Exploratory Data Analysis (EDA) into meaningful visual insights using Airbnb listings data. Using Python and Power BI, the project explores listing prices, room types, neighbourhoods, reviews, and availability, with a focus on comparing Airbnb operations in Chicago and New Orleans.
 
-## Problem Statement
-How can data visualisation tools such as Tableau or Power BI help compare Airbnb listings across Chicago and New Orleans, identify patterns, and support data-driven decisions?
-
-## Objectives
+## Project Objectives
 - Clean and prepare Airbnb listings data for analysis.
 - Explore listing prices, room types, and neighbourhoods.
 - Analyse reviews and listing availability.
-- Examine relationships between numerical variables.
-- Identify patterns that can support comparisons between the two cities.
-- Prepare data and insights for dashboard visualisation.
+- Identify patterns and relationships between numerical variables.
+- Develop an interactive Power BI dashboard to present key insights.
+- Support data-driven decision-making through visualisation.
 
 ## Tools and Technologies
 - Python
@@ -21,7 +18,7 @@ How can data visualisation tools such as Tableau or Power BI help compare Airbnb
 - NumPy
 - Matplotlib
 - Seaborn
-- Tableau / Power BI (dashboard development is a planned improvement if not yet completed)
+- Microsoft Power BI
 
 ## Project Workflow
 
@@ -30,39 +27,45 @@ Loaded the Airbnb listings dataset into Python for analysis.
 
 ### 2. Data Cleaning and Preparation
 - Selected relevant columns.
-- Checked missing values and duplicate records.
-- Converted price data into a suitable numeric format.
-- Prepared the dataset for exploratory analysis.
+- Checked for duplicate records and missing values.
+- Converted price values into a suitable numeric format.
+- Prepared the data for exploratory analysis.
 
-### 3. Exploratory Data Analysis
-- Analysed Airbnb listing prices.
+### 3. Exploratory Data Analysis (EDA)
+- Analysed listing price distributions.
 - Explored room type distribution.
-- Examined neighbourhoods with the highest number of listings.
-- Investigated the relationship between prices and reviews.
-- Explored correlations between numerical features.
+- Identified neighbourhoods with a high number of listings.
+- Examined the relationship between prices and reviews.
+- Explored correlations between numerical variables.
 
 ### 4. Data Transformation
-Created additional categories for price and availability to support further analysis and visualisation.
+Created price categories such as Budget, Standard, and Luxury, and grouped listing availability into Low, Medium, and High categories to support further analysis.
 
-### 5. Dashboard Development
-The project brief proposes an interactive dashboard to present key metrics, listing distributions, price patterns, neighbourhood insights, and filters for further exploration. Dashboard implementation will be added when completed.
+### 5. Power BI Dashboard
+Developed an interactive dashboard to present key Airbnb listing insights, including:
+- KPI cards highlighting key metrics.
+- Room type distribution.
+- Top neighbourhoods by listing count.
+- Price distribution analysis.
+- Reviews versus price analysis.
+- Interactive slicers for filtering and exploration.
 
-## Files
-- `Airbnbcolabnotebook.ipynb` — Python notebook containing data preparation and analysis.
-- `listings.csv` — Raw dataset, if included.
-- `clean_airbnb.csv` — Cleaned dataset, if generated and included.
+## Project Files
+- `Airbnbcolabnotebook.ipynb` — Python notebook containing data cleaning, EDA, and analysis.
+- `listing_Raw.csv` — Raw Airbnb dataset, if included.
+- `cleaned_listings.csv` — Cleaned dataset generated from the analysis, if included.
 
-## Learning Outcomes
-- Practised data cleaning and exploratory analysis using Python.
-- Learned to investigate patterns in listing data.
-- Used data visualisation to communicate findings.
-- Gained experience preparing analytical results for dashboard development.
+## Key Learning Outcomes
+- Practised data cleaning and transformation using Pandas.
+- Developed exploratory data analysis skills.
+- Used visualisations to identify patterns in Airbnb listing data.
+- Learned to present analytical findings through an interactive dashboard.
+- Improved data storytelling and analytical problem-solving skills.
 
 ## Future Improvements
-- Build and publish an interactive Tableau or Power BI dashboard.
-- Add a clear city-by-city comparison of Chicago and New Orleans.
-- Document key findings and business recommendations.
+- Add more detailed comparisons between Chicago and New Orleans.
+- Include additional business insights and recommendations.
+- Enhance the dashboard with more analytical metrics and visualisations.
 
 ## Author
 Sandhya Shree G M
-
